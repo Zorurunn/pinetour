@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    /* background-color: green; */
+}
+
+.primary-txt {
+    color: #303030;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.second-txt {
+    color: #7777;
+}
+
+.head-title-txt {
+    color: #303030;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.logo {
+    width: 138px;
+    height: 32px;
+}
+
+
+.container {
+    /* border: 4px solid red; */
+    margin: auto;
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: aquamarine;
+
+}
+
+.head-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.head-title div {
+    width: 50px;
+    height: 42px;
+    color: white;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    margin-top: 80px;
+
+}
+
+.hd-txt {
+    /* border: 4px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    font-size: 80px;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+}
+
+.img-cont {
+    display: flex;
+    gap: 65px;
+}
+
+.img-row {
+    display: flex;
+    gap: 65px;
+}
+
+.img-cont img {
+    width: 100%;
+    flex-grow: 1;
+
+}
+
+.middle-content {
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 260px;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 124px;
+    width: 100%;
+}
+
+.hd-grp {
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+
+}
+
+.first-medium-title {
+    width: 350px;
+}
+
+.rows {
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.days {
+    /* border: 4px solid green; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 35%;
+}
+
+.d-ttl {
+    font-size: 18px;
+    color: #303030;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.place-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.province {
+    font-size: 12px;
+    color: #7777;
+}
+
+.bg-img img {
+    position: absolute;
+    /* top: 0%;
+    left: 50%;
+    width: 50%; */
+    /* height: fit-content; */
+    top: 0px;
+    left: 50%;
+    /* right: 0; */
+    opacity: 0;
+}
+
+.days {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.days:hover {
+    background-color: #303030;
+}
+
+.days:hover div {
+    color: #d9d9d9;
+}
+
+.days:hover+.bg-img img {
+
+    opacity: 1;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.medium-title {
+    width: 350px;
+    text-align: center;
+}
+
+.section2 {
+
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.packs {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 80px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+.pack1 {
+    border: 2px solid green;
+}
+
+.about-pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.pack-name,
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #303030;
+}
+
+.details {
+    font-size: 20px;
+    color: #7777;
+}
+
+.footer {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+.ready-grp {
+    border-bottom: 1px solid green;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ready {
+    color: white;
+    font-size: 32px;
+}
+
+.order button {
+    background-color: green;
+}
+
+
+.last-grp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.pine-tour {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    width: 80px;
+    height: 70px;
+}
+
+.socials {
+    /* border: 4px solid white; */
+    display: flex;
+    width: 380px;
+    height: 45px;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.fb {
+    background-color: #303030;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-name {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 1320px;
+        background-color: red;
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1120px;
+        background-color: green;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 910px;
+        background-color: blue;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+        background-color: yellow;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 500px;
+        background-color: red;
+    }
+
+}
+
+/*
+@media only screen and (min-width: 576px) {
+    .container {
+        width: 530px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+        border: 5px solid green;
+        background-color: aqua;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1160px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 950px;
+    }
+}
+
+
+.img-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-row {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    border: 6px solid red;
+}
+
+.image {
+    border: 5px solid blue;
+    flex-grow: 1;
+}
+
+.img-box {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+
+}
+
+.zurag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+*/
